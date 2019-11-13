@@ -1,7 +1,6 @@
 {
-  "name": "",
+  "name": "journal-project",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode development",
@@ -22,5 +21,15 @@
     "webpack": "4.39.3",
     "webpack-cli": "^3.3.8",
     "webpack-dev-server": "^3.8.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ratta2ii/journal-project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ratta2ii/journal-project/issues"
+  },
+  "homepage": "https://github.com/ratta2ii/journal-project#readme",
+  "dependencies": {},
+  "description": ""
 }

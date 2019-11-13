@@ -6,23 +6,27 @@
     <title></title>
   </head>
   <body>
+    <form class="formOne" action="index.html" method="post">
+      <label for="titleInput">Title</label>
+      <input type="text" name="title" id="titleInput">
+      <label for="journalInput">Journal</label>
+      <input id="journalInput" type="text">
+      <button type="submit" name="button">Add Entry!</button>
+    </form>
 
+<!-- <textarea id="journalInput2"name="name" rows="8" cols="80" placeholder="Entry Here..."></textarea> -->
 
-<!--
-
-
-
-  $ git init
-  $ npm init -y
-  $ npm install
-  $ npm run build
-
-
-  $ npm run start  (for live server)
-
--->
-
-
+    <div class="journal-display">
+      <div class="panel panel-default">
+        <div class="panel-header">
+          <h1 id="titleDisplay"></h1>
+          <p>Hello friend, how yah doing?</p>
+        </div>
+        <div class="panel-body">
+          <p id="entryDisplay"></p>
+        </div>
+      </div>
+    </div>
 
   </body>
 </html>
